@@ -1,6 +1,5 @@
 @import "animation";
 @import "variables";
-@import "pageResume";
 
 $grey: rgba(0, 0, 0, 0.5);
 $blue: rgba(0, 0, 255, 0.5);
@@ -912,3 +911,5 @@ a {
     }
   }
 }
+
+@import "pageResume";
