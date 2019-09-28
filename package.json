@@ -1,0 +1,22 @@
+{
+  "name": "suman-kumar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "With a Bachelor’s degree in Computer Science & Engineering and hands-on experience HTML5, CSS3, JavaScript, Bootstrap4, Wordpress, SaaS, BEM Methodology, ReactJs, Redux.js",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "compass-mixins": "^0.12.10",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suman Kumar",
+  "license": "ISC"
+}
