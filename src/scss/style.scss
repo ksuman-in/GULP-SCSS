@@ -1,5 +1,7 @@
 @import "animation";
 @import "variables";
+@import "pageResume";
+
 $grey: rgba(0, 0, 0, 0.5);
 $blue: rgba(0, 0, 255, 0.5);
 *,
@@ -115,17 +117,6 @@ a {
         p.userName {
           overflow: hidden;
           transition: all 300ms ease-in;
-          &.hover-name {
-            cursor: pointer;
-            background: url("http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png")
-              repeat-y;
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            -webkit-animation: userName 80s linear infinite;
-            -webkit-transform: translate3d(0, 0, 0);
-            -webkit-backface-visibility: hidden;
-          }
         }
         .bottom {
           font-weight: 400;
@@ -907,30 +898,6 @@ a {
             border-right: 24px solid transparent;
           }
         }
-      }
-      #facebook {
-        .modal-dialog{
-          max-width: 320px;
-          .modal-content {
-            border-radius: 20px;
-            box-shadow: 2px 2px 0 0 $themeColor;
-            background-color: transparent;
-            border-color: transparent;
-            max-width: 320px;
-            .modal-header {
-              min-height: 250px;
-              background-color: #000;
-              border-top-left-radius: 20px;
-              border-top-right-radius: 20px;
-            }
-            .modal-body {
-              background-color: #fff;
-              border-bottom-left-radius: 20px;
-              border-bottom-right-radius: 20px;
-            }
-          }
-        }
-
       }
       .footer {
         padding: 2rem 0;
